@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Get {
 	@GetMapping("/greeting")
 	public String getgreeting(@RequestParam("param") String param) {
-		return "test" + param;
+		return "test " + param;
 	}
 
 }
