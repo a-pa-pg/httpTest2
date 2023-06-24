@@ -14,8 +14,8 @@ public class Hello {
     	System.out.println("payloadは　"
     			+ ""+payload);
     	
-    	
     }
+    
 }
 
 
