@@ -10,7 +10,7 @@ public class Get {
 //	public String getgreeting(@RequestParam("param") String param) {
 //		return "test" + param;
 //	}
-	@GetMapping("/")
+	@GetMapping("/test")
 	public String index() {
 		return "hello";
 	}
